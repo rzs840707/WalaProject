@@ -1,0 +1,868 @@
+digraph "DirectedGraph" {
+graph [concentrate = true];center=true;fontsize=6;node [ color=blue,shape="box"fontsize=6,fontcolor=black,fontname=Arial];edge [ color=black,fontsize=6,fontcolor=black,fontname=Arial]; 
+   "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeRootMethod()V > Context: Everywhere" [ ]
+   "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/Main, main([Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, <clinit>()V > Context: Everywhere" [ ]
+   "Node: synthetic < Primordial, Ljava/lang/System, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, clearAll()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Random, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, clone()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, equals(Ljava/lang/Object;)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$1, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$2, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$3, <init>()V > Context: Everywhere" [ ]
+   "Node: synthetic < Primordial, Ljava/lang/System, initializeSystemClass()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FileReader, <init>(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FileWriter, <init>(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/Writer;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CInput, <init>(Ljava/io/Reader;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Character, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSpec, <init>(LJLex/CLexGen;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSimplifyNfa, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CError, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, userCode()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, bsearch(I)I > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Throwable, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, new_block(II)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicLong, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, equals(LJLex/SparseBitSet;LJLex/SparseBitSet;)Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FileInputStream, <init>(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FileOutputStream, <init>(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;I)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/Writer;Z)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Hashtable, addEntry(ILjava/lang/Object;Ljava/lang/Object;I)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, reset()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, reset()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, reset()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, reset()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, charncmp([CI[CII)I > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, packCode([C[C[CII)[C > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, getName()[C > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, saveStates()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, saveMacro()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, allocate_BOL_EOF(LJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, thompson(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSimplifyNfa, simplify(LJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, make_dfa(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, min_dfa(LJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, set(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_header()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_construct()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_helpers()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_footer()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, insert_block(II)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, checkMemberAccess(ILjava/lang/Class;Z)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, privateGetDeclaredFields(Z)[Ljava/lang/reflect/Field; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;Z)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/File, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FileInputStream, <init>(Ljava/io/File;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FileOutputStream, <init>(Ljava/io/File;Z)V > Context: Everywhere" [ ]
+   "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Math, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, getClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, print(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, newLine()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Arrays, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, doubleSize([C)[C > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, isnewline(C)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, set(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSet, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSet, map(LJLex/CSet;[I)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, set(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, free_nfa_states()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, free_dfa_states()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, set(LJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, minimize()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_states()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_table()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_actions(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, checkPackageAccess(Ljava/lang/ClassLoader;Z)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, checkInitted()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, getReflectionFactory()Lsun/reflect/ReflectionFactory; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, <init>(ZLjava/io/OutputStream;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/DefaultFileSystem, getFileSystem()Ljava/io/FileSystem; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ClassLoader, checkClassLoaderPermission(Ljava/lang/ClassLoader;Ljava/lang/Class;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, write(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, interrupt()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;II)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, processStates(LJLex/SparseBitSet;LJLex/CNfa;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CAccept, <init>([CII)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, and(LJLex/SparseBitSet;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, size()I > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Hashtable, containsKey(Ljava/lang/Object;)Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, println()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CBunch, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, sortStates(Ljava/util/Vector;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, e_closure(LJLex/CBunch;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, add_to_dstates(LJLex/CBunch;)I > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, get_unmarked()LJLex/CDfa; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CDTrans, <init>(ILJLex/CSpec;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, move(Ljava/util/Vector;LJLex/SparseBitSet;ILJLex/CBunch;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa2Dfa, in_dstates(LJLex/CBunch;)I > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, init_groups()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, fix_dtrans()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, col_equiv(II)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, clear(I)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, col_copy(II)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, trunc_col()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, row_equiv(II)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMinimize, row_copy(II)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, newLine()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CEmit, emit_table_as_string([[I)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager, checkPackageAccess(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/UnixFileSystem, <init>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, checkAccess()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CAlloc, newCNfaPair()LJLex/CNfaPair; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CAlloc, newNLPair(LJLex/CSpec;)LJLex/CNfaPair; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, binop(LJLex/SparseBitSet;LJLex/SparseBitSet;LJLex/SparseBitSet$BinOp;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CAlloc, newCDfa(LJLex/CSpec;)LJLex/CDfa; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintWriter, print(I)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ref/Reference, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class$Atomic, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/AccessController, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager, checkAccess(Ljava/lang/Thread;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CError, impos(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, ishexdigit(C)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, hex2bin(C)C > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, isoctdigit(C)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CUtility, oct2bin(C)C > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfaPair, <init>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSet, add(I)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$1, op(JJ)J > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CDfa, <init>(I)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ref/ReferenceQueue, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/ConcurrentHashMap, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ref/Reference$ReferenceHandler, <init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, setPriority(I)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, setDaemon(Z)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class$Atomic, objectFieldOffset([Ljava/lang/reflect/Field;Ljava/lang/String;)J > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, dumpStack()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, first_in_cat(I)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, factor(LJLex/CNfaPair;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CNfa, mimic(LJLex/CNfa;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, discardCNfa(LJLex/CNfa;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, <init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, access$200([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Throwable, printStackTrace()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSet, mimic(LJLex/CSet;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReference, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/io/PrintStream;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/CharacterDataLatin1, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/CharacterData00, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/CharacterData01, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/CharacterData02, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/CharacterData0E, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSet, addncase(C)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSet, complement()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CMakeNfa, dodash(LJLex/CSet;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/security/AccessControlContext;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, isCCLOverridden(Ljava/lang/Class;)Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, getContextClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Throwable$WrappedPrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, auditSubclass(Ljava/lang/Class;)Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicInteger, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, hashCode()I > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager$1, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread$1, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/AccessControlContext, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager, checkWrite(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager, checkRead(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Throwable, printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, xor(LJLex/SparseBitSet;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, or(LJLex/SparseBitSet;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager$1, run()Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread$1, run()Ljava/lang/Boolean; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FilePermission, <init>(Ljava/lang/String;Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/Security, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/Security, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FilePermission, init(I)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/ConcurrentHashMap$TreeBin, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/ThreadLocalRandom, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class$EnclosingMethodInfo, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/ThreadLocalRandom, initialSeed()J > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/NetworkInterface, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$2, op(JJ)J > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$3, op(JJ)J > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/Security$1, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FilePermission$1, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/NetworkInterface$1, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/CSet, contains(I)Z > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet, elements()Ljava/util/Enumeration; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/Security$1, run()Ljava/lang/Void; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/FilePermission$1, run()Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/NetworkInterface$1, run()Ljava/lang/Void; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$4, <init>(LJLex/SparseBitSet;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, searchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/Security, access$000()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/File, getCanonicalPath()Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/System, loadLibrary(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$4, advance()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/UnixFileSystem, canonicalize(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Runtime, loadLibrary0(Ljava/lang/Class;Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/BufferedInputStream, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Properties, load(Ljava/io/InputStream;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Properties, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/File, exists()Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/URL, <init>(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/security/Security, initializeStatic()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/io/File, isDirectory()Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SecurityManager, checkLink(Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ClassLoader, loadLibrary(Ljava/lang/Class;Ljava/lang/String;Z)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater, newUpdater(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Properties, load0(Ljava/util/Properties$LineReader;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ClassLoader, loadLibrary0(Ljava/lang/Class;Ljava/io/File;)Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, <init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V > Context: Everywhere" [ ]
+   "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, isAncestor(Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/reflect/Modifier, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/URL, checkSpecifyHandler(Ljava/lang/SecurityManager;)V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/String, toLowerCase()Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/net/URL, getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ClassLoader, getParent()Ljava/lang/ClassLoader; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Locale, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/String, toLowerCase(Ljava/util/Locale;)Ljava/lang/String; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ClassLoader, getSystemClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1, run()Ljava/lang/reflect/Field; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/Locale, initDefault()Ljava/util/Locale; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, toLowerCaseEx(Ljava/lang/String;ILjava/util/Locale;)I > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, toLowerCaseCharArray(Ljava/lang/String;ILjava/util/Locale;)[C > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ClassLoader, initSystemClassLoader()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/util/HashMap$TreeNode, <clinit>()V > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, lookUpTable(Ljava/lang/String;ILjava/util/Locale;Z)[C > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/ClassLoader$3, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SystemClassLoaderAction, run()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$4, nextElement()Ljava/lang/Object; > Context: Everywhere" [ ]
+   "Node: < Application, LJLex/SparseBitSet$4, hasMoreElements()Z > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/SystemClassLoaderAction, run()Ljava/lang/ClassLoader; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Class, forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class; > Context: Everywhere" [ ]
+   "Node: < Primordial, Ljava/lang/Thread, setContextClassLoader(Ljava/lang/ClassLoader;)V > Context: Everywhere" [ ]
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeRootMethod()V > Context: Everywhere" -> "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeRootMethod()V > Context: Everywhere" -> "Node: < Application, LJLex/Main, main([Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeRootMethod()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/net/NetworkInterface, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/BufferedInputStream, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/reflect/Modifier, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Locale, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/HashMap$TreeNode, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/lang/System, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Random, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Character, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Application, LJLex/CError, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicLong, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Math, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Arrays, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ref/Reference, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class$Atomic, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ref/ReferenceQueue, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/ConcurrentHashMap, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReference, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/CharacterDataLatin1, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/CharacterData00, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/CharacterData01, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/CharacterData02, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/CharacterData0E, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicInteger, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/security/Security, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/ConcurrentHashMap$TreeBin, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/ThreadLocalRandom, <clinit>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Lcom/ibm/wala/FakeRootClass, fakeWorldClinit()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class$EnclosingMethodInfo, <clinit>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/Main, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/Main, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" 
+ "Node: < Application, LJLex/Main, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clearAll()V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clone()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, equals(Ljava/lang/Object;)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, and(LJLex/SparseBitSet;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, size()I > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clear(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, xor(LJLex/SparseBitSet;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, main([Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, or(LJLex/SparseBitSet;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, <clinit>()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$1, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, <clinit>()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$2, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, <clinit>()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$3, <init>()V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/lang/System, <clinit>()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/lang/System, initializeSystemClass()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FileReader, <init>(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FileWriter, <init>(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/Writer;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CInput, <init>(Ljava/io/Reader;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSpec, <init>(LJLex/CLexGen;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSimplifyNfa, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, userCode()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, generate()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, bsearch(I)I > Context: Everywhere" 
+ "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, bsearch(I)I > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, new_block(II)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Random, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, equals(Ljava/lang/Object;)Z > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, equals(LJLex/SparseBitSet;LJLex/SparseBitSet;)Z > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/lang/System, initializeSystemClass()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/lang/System, initializeSystemClass()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FileReader, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FileInputStream, <init>(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FileWriter, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FileOutputStream, <init>(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/Writer;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/Writer;Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CInput, <init>(Ljava/io/Reader;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Character, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, equals(Ljava/lang/Object;)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, addEntry(ILjava/lang/Object;Ljava/lang/Object;I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, hashCode()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CSpec, <init>(LJLex/CLexGen;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, <init>()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, <init>()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, <init>()V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, <init>()V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userCode()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userCode()V > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userCode()V > Context: Everywhere" -> "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userCode()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, charncmp([CI[CII)I > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, packCode([C[C[CII)[C > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, getName()[C > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, saveStates()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userDeclare()V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, saveMacro()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, allocate_BOL_EOF(LJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, thompson(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Application, LJLex/CSimplifyNfa, simplify(LJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, make_dfa(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, userRules()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, min_dfa(LJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, set(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_header()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_construct()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_helpers()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_footer()V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, bsearch(I)I > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, new_block(II)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, new_block(II)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, insert_block(II)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicLong, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, checkMemberAccess(ILjava/lang/Class;Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, privateGetDeclaredFields(Z)[Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FileInputStream, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FileInputStream, <init>(Ljava/io/File;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FileOutputStream, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FileOutputStream, <init>(Ljava/io/File;Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;I)V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, <init>(Ljava/io/Writer;Z)V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Hashtable, addEntry(ILjava/lang/Object;Ljava/lang/Object;I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, hashCode()I > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, newLine()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packCode([C[C[CII)[C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packCode([C[C[CII)[C > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packCode([C[C[CII)[C > Context: Everywhere" -> "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packCode([C[C[CII)[C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, charncmp([CI[CII)I > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packCode([C[C[CII)[C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, doubleSize([C)[C > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getName()[C > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getName()[C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getName()[C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isnewline(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, saveStates()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, saveStates()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, saveStates()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, saveMacro()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, saveMacro()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, saveMacro()V > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, saveMacro()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, allocate_BOL_EOF(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, thompson(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, thompson(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, thompson(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, set(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, thompson(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, simplify(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, simplify(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, simplify(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, map(LJLex/CSet;[I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dfa(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dfa(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, set(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dfa(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dfa(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, free_nfa_states()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dfa(LJLex/CLexGen;LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, free_dfa_states()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, min_dfa(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, reset()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, min_dfa(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, set(LJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, min_dfa(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, minimize()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, min_dfa(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, set(LJLex/CSpec;Ljava/io/PrintWriter;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_header()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_header()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_header()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_header()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_construct()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_construct()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_construct()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_construct()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_helpers()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_helpers()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_helpers()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_helpers()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_helpers()V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_states()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_table()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_driver()V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_actions(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_footer()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_footer()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, insert_block(II)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, checkMemberAccess(ILjava/lang/Class;Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, checkPackageAccess(Ljava/lang/ClassLoader;Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, checkMemberAccess(ILjava/lang/Class;Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, privateGetDeclaredFields(Z)[Ljava/lang/reflect/Field; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, checkInitted()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getReflectionFactory()Lsun/reflect/ReflectionFactory; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, <init>(Ljava/io/OutputStream;Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, <init>(ZLjava/io/OutputStream;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/File, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/File, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/File, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/DefaultFileSystem, getFileSystem()Ljava/io/FileSystem; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FileInputStream, <init>(Ljava/io/File;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkRead(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FileOutputStream, <init>(Ljava/io/File;Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkWrite(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager$1, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread$1, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/security/Security$1, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FilePermission$1, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/net/NetworkInterface$1, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader$3, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Math, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, checkClassLoaderPermission(Ljava/lang/ClassLoader;Ljava/lang/Class;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, print(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, write(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, newLine()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, interrupt()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Arrays, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, set(LJLex/CLexGen;LJLex/CSpec;LJLex/CInput;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, processStates(LJLex/SparseBitSet;LJLex/CNfa;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CAccept, <init>([CII)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, machine()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CSet, add(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, contains(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clearAll()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, and(LJLex/SparseBitSet;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, size()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, containsKey(Ljava/lang/Object;)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CSimplifyNfa, computeClasses(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, <init>()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, map(LJLex/CSet;[I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, map(LJLex/CSet;[I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clearAll()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, map(LJLex/CSet;[I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, elements()Ljava/util/Enumeration; > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, map(LJLex/CSet;[I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$4, nextElement()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, map(LJLex/CSet;[I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$4, hasMoreElements()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CBunch, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, sortStates(Ljava/util/Vector;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, e_closure(LJLex/CBunch;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, add_to_dstates(LJLex/CBunch;)I > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, get_unmarked()LJLex/CDfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CDTrans, <init>(ILJLex/CSpec;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, move(Ljava/util/Vector;LJLex/SparseBitSet;ILJLex/CBunch;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, make_dtrans()V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, in_dstates(LJLex/CBunch;)I > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, set(LJLex/CSpec;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, minimize()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, minimize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, minimize()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, init_groups()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, minimize()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, fix_dtrans()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, col_equiv(II)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clear(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, col_copy(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, trunc_col()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, row_equiv(II)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, reduce()V > Context: Everywhere" -> "Node: < Application, LJLex/CMinimize, row_copy(II)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, newLine()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_states()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_states()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_states()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_states()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_states()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table()V > Context: Everywhere" -> "Node: < Application, LJLex/CEmit, emit_table_as_string([[I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_actions(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_actions(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_actions(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_actions(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, checkPackageAccess(Ljava/lang/ClassLoader;Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPackageAccess(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, checkInitted()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getReflectionFactory()Lsun/reflect/ReflectionFactory; > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, <init>(ZLjava/io/OutputStream;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/BufferedWriter, <init>(Ljava/io/Writer;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/DefaultFileSystem, getFileSystem()Ljava/io/FileSystem; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/UnixFileSystem, <init>()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, checkClassLoaderPermission(Ljava/lang/ClassLoader;Ljava/lang/Class;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, write(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, interrupt()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, interrupt()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, checkAccess()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;II)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, interrupt()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CNfa, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, getStates()LJLex/SparseBitSet; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfaPair()LJLex/CNfaPair; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newNLPair(LJLex/CSpec;)LJLex/CNfaPair; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, rule()LJLex/CNfa; > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, processStates(LJLex/SparseBitSet;LJLex/CNfa;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, and(LJLex/SparseBitSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, binop(LJLex/SparseBitSet;LJLex/SparseBitSet;LJLex/SparseBitSet$BinOp;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Hashtable, containsKey(Ljava/lang/Object;)Z > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, equals(Ljava/lang/Object;)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, equals(Ljava/lang/Object;)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, hashCode()I > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, println()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, newLine()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, e_closure(LJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, e_closure(LJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, e_closure(LJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, e_closure(LJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, sortStates(Ljava/util/Vector;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, add_to_dstates(LJLex/CBunch;)I > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, add_to_dstates(LJLex/CBunch;)I > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clone()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, add_to_dstates(LJLex/CBunch;)I > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, add_to_dstates(LJLex/CBunch;)I > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCDfa(LJLex/CSpec;)LJLex/CDfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, move(Ljava/util/Vector;LJLex/SparseBitSet;ILJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, move(Ljava/util/Vector;LJLex/SparseBitSet;ILJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, move(Ljava/util/Vector;LJLex/SparseBitSet;ILJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, move(Ljava/util/Vector;LJLex/SparseBitSet;ILJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa2Dfa, sortStates(Ljava/util/Vector;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, move(Ljava/util/Vector;LJLex/SparseBitSet;ILJLex/CBunch;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, contains(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa2Dfa, in_dstates(LJLex/CBunch;)I > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMinimize, init_groups()V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, clear(I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, bsearch(I)I > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, clear(I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, new_block(II)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, newLine()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, interrupt()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table_as_string([[I)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table_as_string([[I)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CEmit, emit_table_as_string([[I)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, print(I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkPackageAccess(Ljava/lang/String;)V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkPackageAccess(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/UnixFileSystem, <init>()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/security/AccessController, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, checkAccess()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkAccess(Ljava/lang/Thread;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, doubleSize([C)[C > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandMacro()Z > Context: Everywhere" -> "Node: < Application, LJLex/CError, impos(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ishexdigit(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, hex2bin(C)C > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isoctdigit(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, expandEscape()C > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, oct2bin(C)C > Context: Everywhere" 
+ "Node: < Application, LJLex/CAlloc, newCNfaPair()LJLex/CNfaPair; > Context: Everywhere" -> "Node: < Application, LJLex/CNfaPair, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfaPair()LJLex/CNfaPair; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CAlloc, newNLPair(LJLex/CSpec;)LJLex/CNfaPair; > Context: Everywhere" -> "Node: < Application, LJLex/CSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CAlloc, newNLPair(LJLex/CSpec;)LJLex/CNfaPair; > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CAlloc, newNLPair(LJLex/CSpec;)LJLex/CNfaPair; > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfaPair()LJLex/CNfaPair; > Context: Everywhere" 
+ "Node: < Application, LJLex/CAlloc, newNLPair(LJLex/CSpec;)LJLex/CNfaPair; > Context: Everywhere" -> "Node: < Application, LJLex/CSet, add(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" -> "Node: < Application, LJLex/CInput, getLine()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, isspace(C)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, doubleSize([C)[C > Context: Everywhere" 
+ "Node: < Application, LJLex/CLexGen, packAccept()LJLex/CAccept; > Context: Everywhere" -> "Node: < Application, LJLex/CAccept, <init>([CII)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, binop(LJLex/SparseBitSet;LJLex/SparseBitSet;LJLex/SparseBitSet$BinOp;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$1, op(JJ)J > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, binop(LJLex/SparseBitSet;LJLex/SparseBitSet;LJLex/SparseBitSet$BinOp;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$2, op(JJ)J > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, binop(LJLex/SparseBitSet;LJLex/SparseBitSet;LJLex/SparseBitSet$BinOp;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$3, op(JJ)J > Context: Everywhere" 
+ "Node: < Application, LJLex/CAlloc, newCDfa(LJLex/CSpec;)LJLex/CDfa; > Context: Everywhere" -> "Node: < Application, LJLex/CDfa, <init>(I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintWriter, print(I)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintWriter, write(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ref/Reference, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ref/Reference$ReferenceHandler, <init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ref/Reference, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, setPriority(I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ref/Reference, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, setDaemon(Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class$Atomic, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class$Atomic, objectFieldOffset([Ljava/lang/reflect/Field;Ljava/lang/String;)J > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/AccessController, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, dumpStack()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/AccessController, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/security/AccessControlContext, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkAccess(Ljava/lang/Thread;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CError, impos(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CUtility, hex2bin(C)C > Context: Everywhere" -> "Node: < Application, LJLex/CError, impos(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CUtility, oct2bin(C)C > Context: Everywhere" -> "Node: < Application, LJLex/CError, impos(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CUtility, ASSERT(Z)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfaPair()LJLex/CNfaPair; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, first_in_cat(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, factor(LJLex/CNfaPair;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CNfa, mimic(LJLex/CNfa;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, cat_expr(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, discardCNfa(LJLex/CNfa;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, add(I)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, set(I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ref/ReferenceQueue, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/ConcurrentHashMap, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ref/Reference$ReferenceHandler, <init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, <init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, setPriority(I)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, checkAccess()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, setDaemon(Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, checkAccess()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class$Atomic, objectFieldOffset([Ljava/lang/reflect/Field;Ljava/lang/String;)J > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, access$200([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, dumpStack()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable, printStackTrace()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, first_in_cat(I)Z > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, factor(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, factor(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, factor(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa, mimic(LJLex/CNfa;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CNfa, mimic(LJLex/CNfa;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, mimic(LJLex/CSet;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, <init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, access$200([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable, printStackTrace()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/io/PrintStream;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CError, parse_error(II)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, <init>()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CAlloc, newCNfa(LJLex/CSpec;)LJLex/CNfa; > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, expr(LJLex/CNfaPair;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, add(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, addncase(C)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, complement()V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, term(LJLex/CNfaPair;)V > Context: Everywhere" -> "Node: < Application, LJLex/CMakeNfa, dodash(LJLex/CSet;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, mimic(LJLex/CSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, clone()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;J)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/security/AccessControlContext;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReference, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/io/PrintStream;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/CharacterDataLatin1, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/CharacterData00, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/CharacterData01, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/CharacterData02, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/CharacterData0E, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, addncase(C)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, add(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, dodash(LJLex/CSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/CLexGen, advance()I > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, dodash(LJLex/CSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, add(I)V > Context: Everywhere" 
+ "Node: < Application, LJLex/CMakeNfa, dodash(LJLex/CSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/CSet, addncase(C)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/security/AccessControlContext;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/security/AccessControlContext;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, setPriority(I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/security/AccessControlContext;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, isCCLOverridden(Ljava/lang/Class;)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, init(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/security/AccessControlContext;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, getContextClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable$WrappedPrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable, printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable, printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, isCCLOverridden(Ljava/lang/Class;)Z > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, auditSubclass(Ljava/lang/Class;)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, getContextClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, checkClassLoaderPermission(Ljava/lang/ClassLoader;Ljava/lang/Class;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable$WrappedPrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, auditSubclass(Ljava/lang/Class;)Z > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicInteger, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, print(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/PrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/PrintStream, newLine()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager$1, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager$1, run()Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread$1, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread$1, run()Ljava/lang/Boolean; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/AccessControlContext, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/AccessControlContext, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, dumpStack()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkWrite(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkWrite(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FilePermission, <init>(Ljava/lang/String;Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkRead(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkRead(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FilePermission, <init>(Ljava/lang/String;Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable, printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable$WrappedPrintStream, println(Ljava/lang/Object;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Throwable, printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable, printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, xor(LJLex/SparseBitSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, binop(LJLex/SparseBitSet;LJLex/SparseBitSet;LJLex/SparseBitSet$BinOp;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, or(LJLex/SparseBitSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, binop(LJLex/SparseBitSet;LJLex/SparseBitSet;LJLex/SparseBitSet$BinOp;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager$1, run()Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/security/Security, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread$1, run()Ljava/lang/Boolean; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FilePermission, <init>(Ljava/lang/String;Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FilePermission, init(I)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Properties, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, <clinit>()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FilePermission, init(I)V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/ConcurrentHashMap$TreeBin, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/ConcurrentHashMap$TreeBin, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/ThreadLocalRandom, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/ThreadLocalRandom, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/ThreadLocalRandom, initialSeed()J > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class$EnclosingMethodInfo, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/ThreadLocalRandom, initialSeed()J > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/NetworkInterface, <clinit>()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security$1, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/security/Security$1, run()Ljava/lang/Void; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FilePermission$1, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FilePermission$1, run()Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/NetworkInterface$1, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/net/NetworkInterface$1, run()Ljava/lang/Void; > Context: Everywhere" 
+ "Node: < Application, LJLex/CSet, contains(I)Z > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet, get(I)Z > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet, elements()Ljava/util/Enumeration; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$4, <init>(LJLex/SparseBitSet;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, checkMemberAccess(ILjava/lang/Class;Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, searchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security$1, run()Ljava/lang/Void; > Context: Everywhere" -> "Node: < Primordial, Ljava/security/Security, access$000()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/FilePermission$1, run()Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, getCanonicalPath()Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/NetworkInterface$1, run()Ljava/lang/Void; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/System, loadLibrary(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet$4, <init>(LJLex/SparseBitSet;)V > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$4, advance()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, checkInitted()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, searchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getReflectionFactory()Lsun/reflect/ReflectionFactory; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, access$000()V > Context: Everywhere" -> "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/File, getCanonicalPath()Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/UnixFileSystem, canonicalize(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/System, loadLibrary(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Runtime, loadLibrary0(Ljava/lang/Class;Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/security/Security, initializeStatic()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/FileInputStream, <init>(Ljava/io/File;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Throwable, printStackTrace()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, getCanonicalPath()Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Properties, load(Ljava/io/InputStream;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Properties, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, exists()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initialize()V > Context: Everywhere" -> "Node: < Primordial, Ljava/net/URL, <init>(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/UnixFileSystem, canonicalize(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, exists()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/UnixFileSystem, canonicalize(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, isDirectory()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Runtime, loadLibrary0(Ljava/lang/Class;Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkLink(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Runtime, loadLibrary0(Ljava/lang/Class;Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, loadLibrary(Ljava/lang/Class;Ljava/lang/String;Z)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/BufferedInputStream, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater, newUpdater(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Properties, load(Ljava/io/InputStream;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Properties, load0(Ljava/util/Properties$LineReader;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Properties, getProperty(Ljava/lang/String;)Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/File, exists()Z > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkRead(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, <init>(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/security/Security, initializeStatic()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/io/File, isDirectory()Z > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkRead(Ljava/lang/String;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SecurityManager, checkLink(Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, loadLibrary(Ljava/lang/Class;Ljava/lang/String;Z)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, loadLibrary0(Ljava/lang/Class;Ljava/io/File;)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater, newUpdater(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, <init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Properties, load0(Ljava/util/Properties$LineReader;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, loadLibrary0(Ljava/lang/Class;Ljava/io/File;)Z > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, loadLibrary0(Ljava/lang/Class;Ljava/io/File;)Z > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, getCanonicalPath()Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, <init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, <init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, <init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, isAncestor(Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/net/URL, checkSpecifyHandler(Ljava/lang/SecurityManager;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/String, toLowerCase()Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, <init>(Ljava/net/URL;Ljava/lang/String;Ljava/net/URLStreamHandler;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/net/URL, getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SystemClassLoaderAction, run()Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl, isAncestor(Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, getParent()Ljava/lang/ClassLoader; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/reflect/Modifier, <clinit>()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, checkSpecifyHandler(Ljava/lang/SecurityManager;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/String, toLowerCase()Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/String, toLowerCase(Ljava/util/Locale;)Ljava/lang/String; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler; > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/net/URL, getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, getSystemClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1, run()Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, getParent()Ljava/lang/ClassLoader; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, checkClassLoaderPermission(Ljava/lang/ClassLoader;Ljava/lang/Class;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Locale, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Locale, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Locale, initDefault()Ljava/util/Locale; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/String, toLowerCase(Ljava/util/Locale;)Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, toLowerCaseEx(Ljava/lang/String;ILjava/util/Locale;)I > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/String, toLowerCase(Ljava/util/Locale;)Ljava/lang/String; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, toLowerCaseCharArray(Ljava/lang/String;ILjava/util/Locale;)[C > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, getSystemClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, checkClassLoaderPermission(Ljava/lang/ClassLoader;Ljava/lang/Class;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, getSystemClassLoader()Ljava/lang/ClassLoader; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ClassLoader, initSystemClassLoader()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1, run()Ljava/lang/reflect/Field; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/Locale, initDefault()Ljava/util/Locale; > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, toLowerCaseEx(Ljava/lang/String;ILjava/util/Locale;)I > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, lookUpTable(Ljava/lang/String;ILjava/util/Locale;Z)[C > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, toLowerCaseCharArray(Ljava/lang/String;ILjava/util/Locale;)[C > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, lookUpTable(Ljava/lang/String;ILjava/util/Locale;Z)[C > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader, initSystemClassLoader()V > Context: Everywhere" -> "Node: synthetic < Primordial, Ljava/security/AccessController, doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/util/HashMap$TreeNode, <clinit>()V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, desiredAssertionStatus()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ConditionalSpecialCasing, lookUpTable(Ljava/lang/String;ILjava/util/Locale;Z)[C > Context: Everywhere" -> "Node: < Primordial, Ljava/util/Hashtable, get(Ljava/lang/Object;)Ljava/lang/Object; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/ClassLoader$3, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/io/File, exists()Z > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SystemClassLoaderAction, run()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SystemClassLoaderAction, run()Ljava/lang/ClassLoader; > Context: Everywhere" 
+ "Node: < Application, LJLex/SparseBitSet$4, nextElement()Ljava/lang/Object; > Context: Everywhere" -> "Node: < Application, LJLex/SparseBitSet$4, advance()V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SystemClassLoaderAction, run()Ljava/lang/ClassLoader; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Class, forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class; > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/SystemClassLoaderAction, run()Ljava/lang/ClassLoader; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/Thread, setContextClassLoader(Ljava/lang/ClassLoader;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Class, forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class; > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+ "Node: < Primordial, Ljava/lang/Thread, setContextClassLoader(Ljava/lang/ClassLoader;)V > Context: Everywhere" -> "Node: < Primordial, Ljava/lang/SecurityManager, checkPermission(Ljava/security/Permission;)V > Context: Everywhere" 
+
+}
